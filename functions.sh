@@ -26,7 +26,7 @@ fi
 dnf install mysql -y &>>$logfile
 VALIDATE $? "installing mysql" 
 
-dnf iremove mysql -y &>>$logfile
+dnf remove mysql -y &>>$logfile
 VALIDATE $? "Termintaing mysql" 
 
 
